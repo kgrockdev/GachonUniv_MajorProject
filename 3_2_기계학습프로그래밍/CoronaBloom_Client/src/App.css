@@ -1,0 +1,13 @@
+#header {
+  height: 64px;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+#logo {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  color: coral;
+  padding-left: 40px;
+}
