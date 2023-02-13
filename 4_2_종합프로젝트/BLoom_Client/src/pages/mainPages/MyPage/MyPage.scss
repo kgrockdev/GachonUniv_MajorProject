@@ -1,0 +1,138 @@
+.boardList-wrapper {
+  opacity: 0;
+  animation: smoothAppear 1.5s forwards;
+  animation-delay: 0.5s;
+  flex-direction: column;
+  // align-items: center;
+  .myPage-wrapper {
+    margin: 0 auto;
+    background-color: lightpink;
+    border: none;
+    border-radius: 50px;
+    width: 900px;
+    height: 350px;
+  }
+  .blank1 {
+    float: left;
+    width: 20px;
+    height: 350px;
+  }
+  .imagename {
+    width: 150px;
+    float: left;
+  }
+  .defaultimage {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+  }
+  .default {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+  }
+  .username {
+    padding-top: 20px;
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    color: white;
+  }
+  .blank2 {
+    float: left;
+    width: 20px;
+    height: 250px;
+  }
+  .information {
+    float: left;
+    width: 250px;
+    height: 350px;
+    color: white;
+    font-size: 20px;
+  }
+  .blank3{
+    height:10px;
+  }
+  .boardtable {
+    margin: 0 auto;
+  }
+
+  .react-calendar{
+    width:800px;
+  }
+  .react-calendar__navigation {
+    display: flex;
+
+    .react-calendar__navigation__label {
+      font-weight: bold;
+    }
+
+    .react-calendar__navigation__arrow {
+      flex-grow: 0.333;
+    }
+  }
+  .react-calendar__month-view__weekdays {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+  }
+  .react-calendar__tile {
+    margin-bottom: 1px;
+    background-color: white;
+    height:40px;
+    border: 0.1;
+    border-color: pink;
+    border-radius: 10px;
+    color: pink;
+    text-align: left;
+    padding-bottom : 15px;
+
+    &:hover {
+      background-color: #556b55;
+    }
+
+    &:active {
+      background-color: #a5c1a5;
+    }
+  }
+  .react-calendar__navigation__arrow{
+    margin-bottom: 1px;
+    background-color: white;
+    height:40px;
+    border: 0.1;
+    border-color: pink;
+    border-radius: 10px;
+    color: pink;
+  }
+  .react-calendar__navigation__label{
+    margin-bottom: 1px;
+    background-color: white;
+    height:40px;
+    border: 0.1;
+    border-color: pink;
+    border-radius: 10px;
+    color: pink;
+  }
+
+  .react-calendar__month-view__days__day--neighboringMonth {
+    opacity: 0.7;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #f87171;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 1px;
+  }
+
+  .dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 1px;
+  }
+}

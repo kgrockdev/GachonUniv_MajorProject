@@ -1,0 +1,49 @@
+@keyframes smoothAppear {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+tr.pinkline:hover { background-color: gray; }
+
+.boardList-wrapper{
+  opacity: 0;
+  animation: smoothAppear 1.5s forwards;
+  animation-delay: 0.5s;
+  flex-direction: column;
+  align-items: center;
+  .myPage-wrapper{
+    margin:0 auto;
+    border : 1px solid black;
+    width : 1000px;
+    height: 300px;
+    font-size: 2rem;
+  }
+  .boardList-header{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    color: midnightblue;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .boardList-body{
+    color: black;
+    margin-left:100px;
+    margin-right:100px;
+  }
+  
+  .boardList-footer{
+    display: flex;
+    justify-content:center;
+    margin: 1.5rem;
+  }
+}
+.button{
+  display: flex;
+  justify-content:center;
+}
