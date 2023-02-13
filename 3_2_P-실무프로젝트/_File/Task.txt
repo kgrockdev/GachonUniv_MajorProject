@@ -1,0 +1,19 @@
+프론트엔드의 전체적인 라우팅 설계
+백엔드 Board 서버 구축 도움
+클라이언트에서 필요한 모든 모듈, API, 로직 작성
+Naver, Google, Kakao 등의 외부 API, 오픈소스 사용하여 OAuth 로그인 기능, Map 기능 추가
+국토교통부의 API 사용하여 Geolocation(도로명주소 to 좌표) 구현
+Saltlux TalkBot 사용하여 스마트 매칭 시스템 작성
+PeerJS 사용하여 Peer To Peer 1 : 1 채팅방 제작
+
+활용기술
+PeerJS, (1:1 채팅)
+javascript, (프론트엔드 개발, 서버 개발)
+nodejs, express (서버 개발)
+vercel (클라이언트 클라우드) => PaaS 형 서비스
+heroku (서버 클라우드) => PaaS 형 서비스
+
+어려웠던점
+CORS 해결 관련 문제
+개발의 처음부터 끝까지 괴롭혔던 문제, 원래는 cors-anywhere 오픈소스와 heroku를 사용하여 프록시 서버를 구축하였지만 가끔씩 작동이 안되는 문제때문에 시연때는 포기하고 jsonp를 사용하여 cors 문제를 해결
+시간의 부족으로 프록시서버를 자체적으로 구축하거나 오픈소스를 수정하는 것은 못했지만 조금 더 발전시켜 나갈 일이 생긴다면 프록시 서버도 자체적으로 구축해보고 싶음
