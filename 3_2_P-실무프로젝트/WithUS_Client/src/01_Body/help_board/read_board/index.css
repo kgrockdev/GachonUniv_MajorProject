@@ -1,0 +1,82 @@
+.margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#read_board-back-color {
+  background-color: #e1e2e4;
+}
+
+.read_board-wrapper {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 60px;
+  background-color: #e1e2e4;
+}
+
+#read_board-title {
+  margin: 20px 20px;
+  text-align: center;
+  font-family: "Jua", sans-serif;
+  font-size: 28px;
+}
+
+#read_board-layout {
+  min-height: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#post-detail-table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #fff;
+}
+
+#post-detail-table-breadcrumb {
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+#post-detail-table-header-left {
+  text-align: left;
+  padding: 30px;
+}
+
+#post-detail-table-header-right {
+  text-align: right;
+  padding: 30px;
+}
+
+#post-detail-table-title {
+  text-align: left;
+  padding: 0px 30px;
+  font-weight: bold;
+  font-size: 26px;
+  width: 700px;
+}
+
+#post-detail-table-content {
+  text-align: left;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 700px;
+  font-size: 15px;
+}
+
+#post-detail-table-map {
+  padding: 30px;
+}
+
+#post-detail-table-gvhelp {
+  padding: 30px;
+}

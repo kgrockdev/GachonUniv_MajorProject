@@ -1,0 +1,119 @@
+.margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#mypage-back-color {
+  background-color: #e1e2e4;
+}
+
+.mypage-wrapper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#mypage-layout-left {
+  display: inline-block;
+  width: 30%;
+  min-height: 100%;
+  padding: 12px;
+  vertical-align: top;
+}
+
+#mypage-layout-right {
+  display: inline-block;
+  width: 70%;
+  min-height: 100%;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+#profile-table {
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+#profile-table-img {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#profile-table-info-title {
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#profile-table-info-ddbutton {
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#profile-table-info {
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+}
+
+#profile-table-info:after {
+  content: "";
+  display: block;
+  width: 240px;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 13px auto;
+}
+
+#profile-table-info-iot {
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 0px;
+  font-size: 15px;
+}
+
+#profile-table-info-bottom {
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 35px;
+  padding-left: 0px;
+  padding-right: 30px;
+  font-size: 15px;
+}
+
+#mypost-radiobtn-div {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#mypost-div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+#volunteer-info-btn {
+  text-align: center;
+  margin-top: 15px;
+}
